@@ -12,3 +12,13 @@ Learning from a data stream is a challenging task due to the uncertainty about t
    2.1. Install [numpy](https://numpy.org/install/)
    2.2. Install [psutil](https://pypi.org/project/psutil/)
    2.3. install [scikit multiflow](https://scikit-multiflow.readthedocs.io/en/stable/installation.html)
+
+### Running QTS
+
+Open 'QTS_method.py'
+Set up the dataset file path.
+Set up window sizes and other variables if you want to
+
+Set up the dataset information (detectiondelay, driftposition, and fullsize). This information is presented in the Config file inside the Dataset folder.
+
+Run main_J_QT.py to execute the experiments.
