@@ -18,7 +18,7 @@ Learning from a data stream is a challenging task due to the uncertainty about t
 
 ### Running QTS
 
-Open 'QTS_method.py'
+Open `QTS_method.py`
 Set up the dataset file path.
 Set up window sizes and other variables if you want to
 
