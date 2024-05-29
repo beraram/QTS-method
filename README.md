@@ -19,9 +19,9 @@ Learning from a data stream is a challenging task due to the uncertainty about t
 ### Running QTS
 
 Open `QTS_method.py`
+
 Set up the dataset file path.
-Set up window sizes and other variables if you want to
 
-Set up the dataset information (detectiondelay, driftposition, and fullsize). This information is presented in the Config file inside the Dataset folder.
+Set up window sizes and other variables, if you want to.
 
-Run main_J_QT.py to execute the experiments.
+Run `QTS_method.py` to execute the experiments.
