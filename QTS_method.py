@@ -145,7 +145,7 @@ for ind, auto_h in enumerate(switch):
     '''STREAMING DATA'''
 
     # Run test-then-train loop for max_samples or while there is data in the stream
-    while stream.has_more_samples() and n_samples < 12000:  # 59800
+    while stream.has_more_samples():  # 59800
         n_samples += 1
         X, y = stream.next_sample()
 
